@@ -316,6 +316,3 @@ def home():
 def get_crops():
     return jsonify(crop_data)
 
-# Run the app
-if __name__ == '__main__':
-    app.run(debug=True)
